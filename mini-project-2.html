@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+        <table border="1">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" placeholder="Ayush" name="First Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name*</label></td>
+                <td><input type="text" placeholder="Bansal" name="Last Name" id="lastname" required></td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+              </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Birth Date</label></td>
+                <td><input type="date" id="dob" placeholder="dd/mm/yyyy" required /></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select name="country" id="country" multiple>
+                        <option value="India">India</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="UAE">UAE</option>
+                        <option value="China">China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Interests">Interests</label></td>
+                <td>
+                    <label for="coding">
+                        <input type="checkbox" name="Interests" value="coding"> Coding
+                    </label>
+                    <label for="coding">
+                        <input type="checkbox" name="Interests" value="coding"> Coding
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">submit</button></td>
+            </tr>
+            <tr>
+                <td>Form</td>
+                <td>
+                    <form>
+
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>
