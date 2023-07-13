@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12th July</title>
+    <style>
+        .styled-table {
+  border-collapse: collapse;
+  background-color: blue;
+  width: 100%;
+}
+.styled-table th, .styled-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+    </style>
+  </head>
+  <body>
+    <!-- 
+         11. (done) Semantic Tag(V.V.V impot)
+         15. (done) List in HTML
+         16. (done)Media Tags
+         18. Shortcuts for VS Code
+         1.  (done) Tables
+         2. Forms
+         3. mini-project-2
+         4. (done) mini-project 1.1
+         5. Portal assignments
+     -->
+    <!-- Semantic Tag(V.V.V impot) -->
+    <!-- <header></header>
+    <nav>jdsnjsdnj</nav>
+    <article></article>
+    <aside></aside>
+    <footer>abc</footer>
+    <main></main>
+    <section>Section 1</section> -->
+    <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+    <!-- ------------ -->
+    <!-- <div></div>
+    <div>jdsnjsdnj</div>
+    <div></div>
+    <div></div>
+    <div>abc</div>
+    <div></div>
+    <div>Section 1</div> -->
+    <!-- check if table is semantic or non semantic -->
+
+    <!-- LIST in HTML -->
+    <!-- 1. Unordered List -->
+    <!-- <h2>Unordered List</h2>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul> -->
+
+    <!-- 2. Ordered List -->
+    <!-- <h2>Ordered List</h2>
+
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ol> -->
+
+    <!-- 3. Nested List -->
+
+    <!-- <ul>
+      <li>Order list item 1</li>
+      <li>Order list item 2</li>
+      <li>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ul>
+      </li>
+    </ul> -->
+
+    <!-- 4. Definition List  -->
+    <!-- <dl>
+     
+    
+        <dt>Ayush</dt>
+        <dd>Long life</dd>
+        <dt>Defintion Terms</dt>
+        <dd>Defintion Description</dd>
+        <dt>Ayush</dt>
+        <dd>Long life</dd>
+    </dl>
+
+    <code>
+        My name is Ayush Bansal
+    </code>
+    <p>
+        My name is Ayush Bansal
+    </p> -->
+
+    <!-- Media Tags -->
+    <!-- 
+        1. img tag (done)
+        2. audio tag
+        3. video tag
+        4. iframe
+        5. embed (not be discussed)
+     -->
+    <!--  1. Tables -->
+    <!-- it provides a structured layout to display data -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ayush</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>r2c1</td>
+        <td>r2c2</td>
+      </tr>
+      <tr>
+        <td>r3c1</td>
+        <td>r3c2</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="1">
+      <caption>
+        Monthly Sales report
+      </caption>
+      <tr>
+        <th>Products</th>
+        <th>Units Sold</th>
+        <th>Revenue</th>
+      </tr>
+      <tr>
+        <td>Iphone 12</td>
+        <td>4</td>
+        <td>400000</td>
+      </tr>
+      <tr>
+        <td>Macbook M1</td>
+        <td>1</td>
+        <td>100000</td>
+      </tr>
+    </table>
+
+    <!-- Table Organisation -->
+    <hr />
+    <table border="1">
+    <tr>
+        <td colspan="2">cell1</td>
+        
+        <td>cell3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">cell1</td>
+        <td>cell2</td>
+        <td>cell3</td>
+    </tr>
+    <tr>
+      
+        <td>cell2</td>
+        <td>cell3</td>
+    </tr>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>header 1</th>
+                <th>header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>21</td>
+                <td>12</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table border="1">
+        <caption>Student Information</caption>
+    
+
+       
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th >City</th>
+            <th>House</th>
+        </tr>
+   
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Chennai</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+ 
+  </body>
+</html>
