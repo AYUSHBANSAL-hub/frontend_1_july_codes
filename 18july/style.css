@@ -1,0 +1,50 @@
+.eg1{
+    color: red;
+    text-align: right;
+}
+
+/* h1{
+    color: green;
+    text-align: right;
+    text-decoration: none;
+
+} */
+
+a{
+    text-decoration: none;
+}
+
+#text-1{
+    text-transform: capitalize;
+    /* 
+    none
+    capitalize
+    lowercase
+    uppercase
+    */
+    
+}
+
+#span-1{
+    color: green;
+    text-decoration: underline;
+    font-size: 30px;
+    text-decoration: overline underline line-through;
+}
+#span-2{
+   text-transform: none;
+}
+
+/* li{
+    line-height: 10cm;
+} */
+
+#first-shadow{
+    text-shadow: 52px -76px 3px rgba(255,0,0,0.6);
+    /* text-shadow: x-axis y-axis blur-radius color; */
+    letter-spacing: 10px;
+}
+
+
+/* ayush@acciojob.com */
+
