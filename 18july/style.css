@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    /* background-color: blue; */
+}
 .eg1{
     color: red;
     text-align: right;
@@ -48,3 +52,112 @@ a{
 
 /* ayush@acciojob.com */
 
+a:hover {
+    color: red;
+}
+
+.ayush>li:nth-child(odd){
+    color: blue;
+}
+
+
+#saurav::before{
+    content: "My name is";
+}
+
+#saurav::after{
+    content: " Jha";
+}
+.ayush>li:first-child::before{
+    content: "new content added";
+}
+
+#my-input::placeholder{
+    color: blue;
+}
+
+
+#saurav{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    /* italic
+    oblique
+    normal
+    */
+    font-weight: 900;
+    /* Range is 100->900 with increment of 100 */
+    font-size: 30px;
+    
+}
+
+cite{
+    font-style: normal;
+}
+
+
+#ayush{
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    /* 
+    hex code
+    rgb(a)
+    hsl
+    fixed color */
+    width: 400px;
+    background-image: url("https://images.unsplash.com/photo-1689631282155-924d15b957e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80")
+}
+
+
+.bg-prop{
+    border: 2px solid red;
+    width: 800px;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1689631282155-924d15b957e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80");
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:top;
+    opacity: 0.5;
+}
+
+.bg-prop-1{
+    width: 800px;
+    height: 400px;
+    background-color: red;
+    border: 100px dashed green;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+}
+.bg-prop-2{
+    margin: 10%;
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+
+.bg-prop-3{
+    width: 400px;
+    
+    background-color: green;
+    border: 5px solid blue;
+    /* padding: 15px; */
+    /* padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 10px; */
+
+}
+
+.bg-prop-4{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    margin: 10px 15px 10px 10px;
+   
+}
