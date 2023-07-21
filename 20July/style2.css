@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+    border: 10px solid green;
+    background-color: red;
+}
+.flex-2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    border: 5px solid blue;
+    height: 500px;
+    flex-wrap: nowrap;
+}
+.item-1{
+    flex:3;
+    height: 100px;
+    background-color: yellow;
+}
+.item-2{
+    flex: 1;
+    height: 150px;
+    background-color: orange;
+}
+.item-3{
+    flex: 3;
+
+    height: 250px;
+    background-color: blueviolet;
+}
+.item-4{
+    flex: 2;
+   background-color: red;
+}
+
+
+.nav-container{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    flex:5;
+}
+
+
+.accounts{
+    flex:1;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-flow: <flex-direction> <flex-wrap>; */
+    flex-flow: row wrap;
+
+}
+.name{
+    flex: 1;
+    /* background-color: orange; */
+}
+.accounts>button{
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+}

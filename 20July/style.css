@@ -1,0 +1,104 @@
+.class-1 {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+}
+/* same line */
+.class-2 {
+  background-color: aqua;
+  width: 300px;
+}
+/* we can give props like height width and more */
+
+.class-3 {
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+}
+
+.class-4 {
+  position: absolute;
+  top: 10px;
+}
+
+.class-5 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.class-6 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.class-7 {
+  position: absolute;
+  width: 50px;
+  right: 0px;
+  height: 50px;
+  background-color: blue;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.sticky {
+  position: sticky;
+  top: 0px;
+}
+
+table {
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 2px solid green;
+  /* padding: 30px; */
+  width: 50px;
+  height: 200px;
+  text-align: center;
+  vertical-align: top;
+  background-color: blue;
+  color: white;
+}
+
+.class-8 {
+  width: 350px;
+  background-image: linear-gradient(276.97deg, #992fed, #2f80ed);
+  border-radius: 10px;
+  font-size: 23px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 15px;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.class-8:hover{
+    box-shadow: 2px 2px 4px  #992fed;
+}
+.class-9{
+    width: 200px;
+    height: 200px;
+    /* background-image: radial-gradient([shape] at [position],<stop1>,stop2,.....); */
+    background-image: radial-gradient(circle at center,red,green,blue);
+}
+.ss{
+    width: 90vw;
+}
