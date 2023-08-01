@@ -1,0 +1,18 @@
+/* .d-flex{
+    display: flex;
+} */
+
+.div-1 {
+  width: 400px;
+}
+.div-2 {
+  width: 500px;
+  /* background-color: */
+}
+
+@media screen and (max-width:800px) {
+  .div-2 {
+    width: 100vw !important;
+    background-color: blueviolet !important;
+  }
+}

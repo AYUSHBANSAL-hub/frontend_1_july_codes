@@ -1,0 +1,20 @@
+* {
+  background-color: pink;
+}
+
+
+
+@media screen and (min-width:992px) {
+    /* desktop view */
+    *{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:767px){
+    /* tablet:view */
+    *{
+        background-color: blue;
+    }
+}
+/* Mobile first approach */

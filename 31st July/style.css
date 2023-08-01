@@ -1,0 +1,55 @@
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.box{
+    height: 400px;
+    width: 10px;
+    border: 1px solid orange;
+    background: linear-gradient(to right, red, blue);
+    /* animation: <keyframe> duration timing-function delay <animation-iteration-count> <animation-direction>  ; */
+    animation: movegradient 3s linear 0s;
+    background-size: 400% 400%;
+}
+
+/* 
+animation-direction
+1. normal (0-100)
+2. reverse (100->0)
+3. Alternate(0->100->0)
+4. Alernate rever(100->0->100) */
+
+
+/* animation-fill-mode */
+/* 
+1. none (default)
+2. forwards
+3. backwards
+4. both
+   */
+/* animation-play-state */
+@keyframes ayush {
+    100%{
+       height: 150px;
+       transform: translate(0px,300px);
+       box-shadow: 0px 100px 150px black;
+    }
+}
+
+@keyframes movegradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    20%{
+        transform: scale(5);
+    }
+    100%{
+        background-position: 100% 50%;
+        transform: translate(-1000px,0px) scale(5);
+        width: 5px;
+    }
+}

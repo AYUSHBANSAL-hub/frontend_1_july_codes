@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  padding: 10px 30px;
+  /* border: 1px solid blue; */
+}
+#logo {
+  height: 66px;
+}
+.nav-col-1 {
+  display: flex;
+  align-items: center;
+  color: #373737;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+.vertical {
+  border-left: 1px solid rgb(198, 198, 198);
+  height: 20px;
+  padding-inline: 5px;
+}
+.nav-col-2 {
+  display: flex;
+  align-items: center;
+}
+
+.get-a-quote {
+  color: white;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 23.5px;
+  font-size: 25px;
+  background: #184655;
+  box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+}
+
+.nav-col-2 > div {
+  padding: 10px;
+}
+.hero-div {
+  /* background-image: url("./assets/bg.svg"); */
+  border-radius: 50px;
+  background: url("https://images.unsplash.com/photo-1690046793092-f8d634523264?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"),
+    lightgray 50% / cover no-repeat;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 742px;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: aqua;
+}
+
+.footer-text {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  flex-direction: column;
+  align-items: left;
+}
+
+.search-div {
+  display: flex;
+  background-color: white;
+  border-radius: 19px;
+  overflow: hidden;
+  width: 550px;
+}
+
+.search-div > input {
+  border: none;
+  padding: 30px 10px;
+  font-size: 22px;
+  flex: 2;
+}
+
+.search-div > button {
+  flex: 1;
+  border: none;
+  background: #184655;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118%;
+}
+.search-div > input::placeholder{
+  font-size: 22px;
+  padding-left: 15px;
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+  height: 90vh;
+  overflow: hidden;
+}
+.left-main {
+  flex: 1;
+  background-color: black;
+  overflow-y: scroll;
+}
+
+.right-main {
+  flex: 4;
+  background-color: aqua;
+  position: relative;
+}
+.horizontal-line{
+    border-bottom: 1px solid rgb(91, 91, 91);
+    width: 100%;
+    padding-top: 100px;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: brown;
+  height: 10vh;
+  width: 100vw;
+}
+
+.title-row{
+    margin-top: -10px;
+}
